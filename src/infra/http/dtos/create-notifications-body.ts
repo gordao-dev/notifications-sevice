@@ -1,5 +1,6 @@
 import { IsNotEmpty, IsUUID, Length } from 'class-validator';
 
+// Body da notification
 export class CreateNotificationBody {
   @IsNotEmpty()
   @IsUUID()
